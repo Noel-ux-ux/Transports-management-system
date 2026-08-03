@@ -1,0 +1,242 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d1d1d;
+    background-color: #f5f6ff;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+span{
+    color:  rgb(255, 15, 15);
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d1d1d;
+    background-color: #f5f6ff;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+span{
+    color:  rgb(255, 15, 15);
+}
+
+
+
+.hdd {
+    width: 100%;
+    background:  #0b1e33;
+}
+
+.header {
+    width: min(1200px, 92%);
+    margin: auto;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.op {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(15px, 4vw, 55px);
+    flex-wrap: wrap;
+    padding: 18px 0;
+}
+
+.v a {
+    color: #ffffff;
+    font-size: clamp(0.9rem, 2vw, 1.05rem);
+    font-weight: 600;
+    padding: 8px 4px;
+    transition: color 0.3s ease;
+}
+
+.v a:hover {
+    color: #d7ecff;
+    border-bottom: 3px solid #ffdede;
+}
+
+
+
+
+/* Testimonial Wrapper */
+.TESTIFY {
+    padding-top: 11%;
+}
+
+.testimonial-box {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 10%;
+    padding-top: 5%;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    padding-top: 1%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 8%;
+
+
+}
+
+/* Individual Testimonial Card */
+.only {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 20px;
+    height: 10%;
+}
+.pi{
+    padding-left: 31%;
+}
+.only img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rating {
+    color: #f39c12;
+    margin: 10px 0;
+}
+
+.my h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Shared styles (Header/Footer remain consistent) */
+.header .hdd {
+    padding: 1rem;
+    background: #f8f8f8;
+}
+
+.h {
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+.footer {
+    background: #0b1e33;
+    color: #ffffff;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.social a {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #5caeff;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 1.4rem;
+    transition: 0.3s ease;
+}
+
+.social a:hover {
+    background: #0878e8;
+    transform: translateY(-4px);
+}
+
+#preloader {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.loader-logo {
+    width: 90px;
+    height: auto;
+}
+
+.spinner {
+    width: 42px;
+    height: 42px;
+    border: 4px solid #ffb7b7;
+    border-top-color: #ff0d0d;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
